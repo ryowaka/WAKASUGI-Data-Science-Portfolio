@@ -13,3 +13,5 @@ I plan to organize future projects into folders:
 - Data Visualization
 - Machine Learning Models
 - Python Projects
+
+This repository is created by Ryosuke Wakasugi
