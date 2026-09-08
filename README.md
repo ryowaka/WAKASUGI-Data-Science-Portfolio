@@ -1,5 +1,7 @@
 # WAKASUGI-Data-Science-Portfolio
 
+- **Email:** [rwakasug@nd.edu](mailto:rwakasug@nd.edu)
+
 ## About This Repository
 
 This repository is my data science portfolio for Introduction to Data Science. 
