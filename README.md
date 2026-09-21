@@ -2,18 +2,18 @@
 
 - **Email:** [rwakasug@nd.edu](mailto:rwakasug@nd.edu)
 
-## About This Repository
+## 🔰About This Repository
 
 This repository is my data science portfolio for Introduction to Data Science. 
 I will use this portfolio to organize my coursework, and projects that I have done in the class. It will also show my progress in Python, data analysis, and data visualization.
 
-## Future Projects
+## 📂Projects
 
-I plan to organize future projects into folders:
+### 🐧 Palmer's Penguins Streamlit App
+🔗[View the Project](https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/blob/main/basic_streamlit_app/main.py)
 
-- Exploratory Data Analysis
-- Data Visualization
-- Machine Learning Models
-- Python Projects
+## ▶️ How to Run
 
-This repository is created by Ryosuke Wakasugi
+From the root of this repository, run:
+
+streamlit run basic_streamlit_app/main.py
