@@ -16,6 +16,8 @@ I will use this portfolio to organize my coursework, and projects that I have do
 
 From the root of this repository, run:
 
-```bash
 streamlit run basic_streamlit_app/main.py
+
+
+
 This repository is created by Ryosuke Wakasugi
