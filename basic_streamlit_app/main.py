@@ -10,7 +10,7 @@ This app explores:
 - **Visualization:** Using scatterplots and boxplots to compare the physical characteristics of different penguin species.
 """)
 
-# Read the Palmer's Penguins dataset from a CSV file.
+# Read the Palmer's Penguins dataset from a CSV file
 df = pd.read_csv("data/penguins.csv")
 
 # Display Summary Statistics
@@ -38,5 +38,3 @@ species = st.selectbox("**Choose a species to explore**",
 species_data = df[df["species"] == species]
 st.subheader(f"**Data for {species}**")
 st.dataframe(species_data)
-
-
