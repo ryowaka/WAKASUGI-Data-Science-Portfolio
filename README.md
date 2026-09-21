@@ -10,7 +10,7 @@ I will use this portfolio to organize my coursework, and projects that I have do
 ## 📂Projects
 
 ### 🐧 Palmer's Penguins Streamlit App
-[View the Project]([https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/blob/main/basic_streamlit_app/main.py])
+[View the Project](https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/blob/main/basic_streamlit_app/main.py)
 
 ## ▶️ How to Run
 
