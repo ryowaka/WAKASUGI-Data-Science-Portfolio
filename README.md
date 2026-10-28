@@ -12,6 +12,9 @@ I will use this portfolio to organize my coursework, and projects that I have do
 ### 🐧 Palmer's Penguins Streamlit App
 🔗[View the Project](https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/blob/main/basic_streamlit_app/main.py)
 
+### 📊 Federal R&D Budget Tidy Data Project
+🔗[View the Project](https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/tree/main/TidyData-Project)
+
 ## ▶️ How to Run
 
 From the root of this repository, run:
