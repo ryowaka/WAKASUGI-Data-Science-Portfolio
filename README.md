@@ -15,6 +15,8 @@ I will use this portfolio to organize my coursework, and projects that I have do
 ### 📊 Federal R&D Budget Tidy Data Project
 🔗[View the Project](https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/tree/main/TidyData-Project)
 
+I used pandas to clean and visualize federal R&D budget data. This project helped me improve my data analysis skills alongside my first Streamlit project.
+
 ## ▶️ How to Run
 
 From the root of this repository, run:
