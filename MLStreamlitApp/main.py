@@ -53,7 +53,9 @@ clean_data = pd.concat([X, y], axis=1).dropna()
 X = clean_data.drop(columns=[target])
 y = clean_data[target]
 
-
+if y.nunique() > 20:
+    st.warning("Please select a target with 20 or fewer classes.")
+    st.stop()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -73,7 +75,7 @@ model_selection = st.selectbox(
 
 if model_selection == "K-Nearest Neighbors":
 
-    k = st.slider("Numebers of Neighbors:", 1, 20, 5)
+    k = st.slider("Numebers of Neighbors:", 1, min(20, len(X_train)), min(5, len(X_train)))
     model = KNeighborsClassifier(n_neighbors=k)
     model.fit(X_train_scaled, y_train)
     y_pred = model.predict(X_test_scaled)
