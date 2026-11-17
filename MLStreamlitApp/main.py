@@ -36,7 +36,11 @@ else:
 
 
 st.subheader("Target Selection")
-target = st.selectbox("Select the target column", df.columns)
+
+if data_selection == "Mobile Price Dataset":
+    target = st.selectbox("Select the target column", df.columns, index=20)
+else:
+    target = st.selectbox("Select the target column", df.columns)
 st.write("You selected", target)
 
 X = df.drop(columns=[target])
@@ -49,11 +53,14 @@ clean_data = pd.concat([X, y], axis=1).dropna()
 X = clean_data.drop(columns=[target])
 y = clean_data[target]
 
+
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
+
 
 
 
@@ -120,5 +127,3 @@ st.write("The confusion matrix shows how many predictions are correct or incorre
 "The diagonal elements represent correct predictions, while off-diagonal elements represent misclassifications.")
 
 
-
-st.subheader("Target Selection")
