@@ -21,7 +21,7 @@ I used pandas to clean and visualize federal R&D budget data. This project helpe
 
 🔗 [View the Project](https://github.com/ryowaka/WAKASUGI-Data-Science-Portfolio/tree/main/MLStreamlitApp)
 
-🔗 [Live Streamlit App](https://wakasugi-ml-app.streamlit.app/)
+🔗 [Streamlit App](https://wakasugi-ml-app.streamlit.app/)
 
 I created an interactive machine learning app where users can upload their own dataset, train KNN and Decision Tree models, and adjust hyperparameters. This project helped me apply what I learned about machine learning in class and improve my skills in Python and app deployment.
 
