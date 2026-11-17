@@ -8,7 +8,7 @@ I created a Streamlit app where users can train and evaluate machine learning mo
 
 ## Streamlit App
 
-App link:
+[Open the Machine Learning Streamlit App](https://wakasugi-ml-app.streamlit.app/)
 
 
 ## Dataset
